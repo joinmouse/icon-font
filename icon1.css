@@ -6,14 +6,15 @@
   url('//at.alicdn.com/t/font_ac908ex839ykfbt9.ttf') format('truetype'),
   url('//at.alicdn.com/t/font_ac908ex839ykfbt9.svg#iconfont') format('svg');
 }
-#icon{
+.icon{
   font-family: iconfont;
   font-style: normal;
+  font-size: 100px;
 }
-.icon-yellow:before{
+.icon:before{
   content: '\e60c;'
 }
-.icon-green:before{
+.icon:hover{
   content: '\e60b;'
 }
 
